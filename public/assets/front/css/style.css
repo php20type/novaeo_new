@@ -1,0 +1,2730 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+li {
+    padding: 0;
+    margin: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1260px;
+        margin: 0 auto;
+    }
+}
+
+/* Header Sec CSS Start */
+.header-main-sec {
+    padding: 20px 0;
+    position: relative;
+}
+
+.header-logo-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-search-list,
+.header-cart-block ul {
+    display: flex;
+    align-items: center;
+}
+
+.header-search-list {
+    width: 75%;
+    justify-content: right;
+}
+
+.header-logo {
+    width: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-logo a {
+    font-family: 'Mermaid';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.header-menu-area .menubar-btn {
+    display: none;
+}
+
+.header-nav .menubar-close-btn a {
+    display: none;
+}
+
+nav.header-nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.header-nav ul li {
+    list-style: none;
+    padding: 20px 27px;
+    margin-right: 25px;
+}
+
+nav.header-nav ul li a {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4C4C;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-btn a {
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #009798;
+    padding: 14px 35px;
+}
+
+nav.header-nav ul li.active a:before,
+nav.header-nav ul li:hover a:before {
+    content: '';
+    position: absolute;
+    background: url(../img/line.svg) no-repeat center center;
+    margin: 7px auto;
+    display: block;
+    width: 100%;
+    height: 4px;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-size: contain;
+}
+
+.user-login-block {
+    display: flex;
+    align-items: center;
+}
+
+.user-login-img {
+    position: relative;
+}
+
+.user-login-img img {
+    border: 3px solid #009798;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.1));
+    border-radius: 50%;
+    width: 49px;
+}
+
+.user-login-img:before {
+    content: '';
+    background: #009798;
+    border: 2px solid #FFFFFF;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 100%;
+    right: 0px;
+    bottom: 0;
+    z-index: 1;
+}
+
+.user-login-content-block {
+    margin-left: 11px;
+    display: flex;
+    align-items: center;
+}
+
+.user-login-content {
+    margin-right: 10px;
+}
+
+.user-login-content a h5 {
+    font-family: 'Jost';
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 13px;
+    color: #000000;
+}
+
+.user-login-content a p {
+    font-family: 'Jost';
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 9px;
+    color: #868686;
+}
+
+.user-login-content .dropdown-toggle::after {
+    display: none;
+}
+
+/* Header Sec CSS End */
+
+/* Banner Section CSS Start */
+.banner-sec-main {
+    margin: 0;
+}
+
+.banner-sec-main .container-fluid {
+    background-size: cover;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.banner-con-area {
+    position: relative;
+}
+
+.banner-con-area img {
+    max-width: 100%;
+}
+
+.banner-slider-sec .slider-img-con {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    color: #ffffff;
+}
+
+.banner-slider-sec .slider-img-con h2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-img-con h5 {
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.baner-slide img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    object-fit: cover;
+    position: relative;
+}
+
+.slider-img-con h2 {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 130px;
+    color: #FFFFFF;
+}
+
+.banner-inner .slick-next {
+    right: 50px;
+}
+
+.banner-inner .slick-prev {
+    left: 20px;
+    z-index: 10;
+}
+
+.banner-inner .slick-next:before {
+    color: #09090963;
+    font-size: 50px;
+}
+
+.banner-inner .slick-prev:before {
+    color: #09090963;
+    font-size: 50px;
+}
+
+.banner-inner .slick-next:before {
+    color: #f9fafb;
+}
+
+.banner-inner .slick-prev:before {
+    color: #f9fafb;
+}
+
+/* Banner Section CSS End */
+/* About Section CSS Start */
+.about-sec-main {
+    padding: 150px 0;
+}
+
+.about-img-block {
+    position: relative;
+}
+
+.about-img-block:before {
+    content: '';
+    position: absolute;
+    background: url(../img/dot-bg-img.png) no-repeat;
+    width: 345px;
+    height: 327px;
+    background-size: contain;
+    top: -50px;
+    left: -42px;
+    z-index: -1;
+}
+
+.about-img-block img {
+    width: 100%;
+    z-index: 1;
+}
+
+.about-inner .col-md-6:last-child {
+    display: flex;
+    align-items: center;
+}
+
+.about-con-block {
+    padding-left: 52px;
+}
+
+.custom-title h2 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 54px;
+    color: #000000;
+    position: relative;
+}
+
+.custom-title h2:before {
+    content: '';
+    position: absolute;
+    background: url(../img/line.svg) no-repeat;
+    margin: 7px 0;
+    display: block;
+    width: 100%;
+    height: 4px;
+    bottom: -15px;
+    left: 0;
+    background-size: contain;
+}
+
+.about-content {
+    margin-top: 30px;
+}
+
+.about-content p {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #787878;
+    margin-bottom: 30px;
+}
+
+.about-btn {
+    display: flex;
+}
+
+.about-btn a {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #009798;
+    padding: 20px 52px;
+    display: flex;
+    align-items: center;
+}
+
+.about-btn a svg {
+    margin-left: 12px;
+}
+
+/* About Section CSS End */
+
+/* Who we are Section CSS Start */
+.who-sec-main {
+    padding: 50px 0 150px;
+}
+
+.who-img-block,
+.who-img-block-2 {
+    position: relative;
+}
+
+.who-img-block-2 {
+    margin-top: 30px;
+}
+
+.who-img-block:before {
+    content: '';
+    position: absolute;
+    background: url(../img/dot-bg-img.png) no-repeat;
+    width: 345px;
+    height: 327px;
+    background-size: contain;
+    top: -50px;
+    left: -42px;
+    z-index: -1;
+}
+
+.who-img-block img,
+.who-img-block-2 img {
+    width: 100%;
+    z-index: 1;
+}
+
+.who-img-block-2:before {
+    content: '';
+    border: 1.5px solid #009798;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: -1;
+}
+
+.who-con-block {
+    padding-left: 52px;
+}
+
+.custom-title h2 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 54px;
+    color: #000000;
+    position: relative;
+}
+
+.custom-title h2:before {
+    content: '';
+    position: absolute;
+    background: url(../img/line.svg) no-repeat;
+    margin: 7px 0;
+    display: block;
+    width: 100%;
+    height: 4px;
+    bottom: -15px;
+    left: 0;
+    background-size: contain;
+}
+
+.who-content {
+    margin-top: 30px;
+}
+
+.who-content p {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #787878;
+    margin-bottom: 30px;
+}
+
+.who-con-block-2 .who-content p {
+    margin-bottom: 60px;
+}
+
+/* Who we are Section CSS End */
+
+/* Teal Business Structure Section CSS Start */
+.business-sec-main {
+    padding: 0 0 400px;
+}
+
+.business-inner .custom-title h2 {
+    text-align: center;
+}
+
+.business-inner .custom-title h2:before {
+    background: url(../img/line.svg) no-repeat center center;
+    margin: 7px auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.business-con-block {
+    margin-top: 100px;
+}
+
+.business-box {
+    height: 100%;
+    position: relative;
+    padding: 15px;
+}
+
+.business-box:before {
+    content: '';
+    position: absolute;
+    background: url(../img/buisness-line-bg-img.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-size: contain;
+}
+
+.business-box-block {
+    background: #FFFFFF;
+    box-shadow: 3px 4px 46px rgba(0, 0, 0, 0.2);
+    padding: 60px 30px;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.business-img {
+    background: #009798;
+    padding: 14px;
+    display: block;
+    max-width: max-content;
+    position: absolute;
+    top: -50px;
+}
+
+.business-content h3 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.business-content p {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #787878;
+}
+
+/* Teal Business Structure Section CSS End */
+/* Map Section CSS Start */
+.map-sec-main {
+    padding: 150px 0 150px;
+    position: relative;
+}
+
+.map-inner .custom-title h2 {
+    text-align: center;
+}
+
+.map-inner .custom-title h2:before {
+    background: url(../img/line.svg) no-repeat center center;
+    margin: 7px auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.map-img-block {
+    margin-top: 50px;
+}
+
+#map {
+    height: 500px;
+    width: 100%;
+    background-color: grey;
+}
+
+/* Map Section CSS End */
+/* Get in touch with us Section CSS Start */
+section.get-in-sec-main {
+    background: #009798;
+    padding: 429px 0 90px;
+    position: relative;
+    margin-top: 230px;
+}
+
+.get-in-img-block {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+}
+
+.get-in-img-con-block {
+    background: #FFFFFF;
+    box-shadow: 4px 4px 27px rgba(0, 0, 0, 0.15);
+    padding: 55px 60px;
+    max-width: 836px;
+    position: relative;
+    margin-left: -60px;
+}
+
+.get-in-img-con-block:after {
+    content: '';
+    width: 345px;
+    height: 327px;
+    display: block;
+    background: url(../img/dot-bg-img.png) no-repeat right top;
+    background-size: contain;
+    position: absolute;
+    bottom: -20px;
+    right: -88px;
+    z-index: -18;
+}
+
+.get-in-con-block-inner {
+    position: absolute;
+    top: -557px;
+    left: 0;
+}
+
+.get-in-form {
+    margin-top: 50px;
+}
+
+.get-in-form form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.get-in-form form .form-field {
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+.get-in-form form .form-field:nth-child(2),
+.get-in-form form .form-field:nth-child(3) {
+    width: 50%;
+    padding: 0 11px;
+}
+
+.get-in-form form .form-field:nth-child(2) {
+    padding-left: 0px;
+}
+
+.get-in-form form .form-field:nth-child(3) {
+    padding-right: 0;
+}
+
+.get-in-form form .form-field input,
+.get-in-form form .form-field textarea {
+    border: 1px solid rgb(120 120 120 / 35%);
+    width: 100%;
+    padding: 20px;
+}
+
+.get-in-btn {
+    display: flex;
+}
+
+.get-in-btn button {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #009798;
+    border: unset;
+    padding: 20px 52px;
+    display: flex;
+    align-items: center;
+}
+
+.get-in-btn button svg {
+    margin-left: 12px;
+}
+
+.get-in-contact-box {
+    background: #ffffff;
+    box-shadow: 2px 2px 27px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 50px 85px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.get-in-contact-box:before {
+    content: '';
+    position: absolute;
+    background: rgb(0, 151, 152, 0.1);
+    border-radius: 100%;
+    width: 184px;
+    height: 184px;
+    top: 99px;
+    right: -20px;
+    z-index: -1;
+}
+
+.get-in-contact-icon {
+    width: 57px;
+    height: 57px;
+    margin: 0 auto;
+}
+
+.get-in-contact-content {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.get-in-contact-content a {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #787878;
+}
+
+/* Get in touch with us Section CSS End */
+/* Join Our Newsletter Section CSS Start */
+.newsletter-sec-main {
+    padding: 150px 0;
+    position: relative;
+}
+
+.newsletter-inner .col-md-6:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter-inner {
+    background: #FFFFFF;
+    box-shadow: 3px 4px 46px rgba(0, 0, 0, 0.17);
+    padding: 50px 50px 0;
+}
+
+.newsletter-content {
+    margin-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+}
+
+.newsletter-content p {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #787878;
+    margin-bottom: 40px;
+}
+
+.newsletter-form {
+    position: relative;
+}
+
+.newsletter-form form input {
+    border: 1px solid #009798;
+    padding: 16px 175px 16px 13px;
+    width: 100%;
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #009798;
+}
+
+.newsletter-form form .form-field ::placeholder {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #CDCDCD;
+}
+
+.newsletter-form-btn {
+    position: absolute;
+    right: 0;
+    top: 16px;
+    display: block;
+}
+
+.newsletter-form-btn a {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: #009798;
+    padding: 17px 41px;
+}
+
+/* Join Our Newsletter Section CSS End */
+/* Footer Section CSS Start */
+.footer-sec-main {
+    background: url('../img/Footer-bg-img.png') no-repeat;
+    background-size: cover;
+    padding: 30px 0 50px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.footer-menu-area {
+    margin-bottom: 45px;
+}
+
+.footer-menu-area ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-menu-area ul li {
+    margin: 0 38px;
+    list-style: none;
+}
+
+.footer-menu-area ul li a {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.footer-bottom-block {
+    border-top: 1px solid #ffffff;
+    padding-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bottom-content p {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.footer-social-list ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-social-list ul li {
+    list-style: none;
+    margin: 0 7px;
+}
+
+/* Footer Section CSS End */
+
+/* Our Team Banner Section CSS Start */
+.banner-sec {
+    overflow: hidden;
+}
+
+.banner-sec .container-fluid {
+    padding: 0;
+}
+
+.banner-con-block {
+    position: relative;
+}
+
+.banner-content {
+    position: absolute;
+    top: 190px;
+    left: 340px;
+}
+
+.banner-content h2 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 83px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.banner-menu-block ul li {
+    list-style: none;
+    margin-right: 30px;
+    position: relative;
+}
+
+.banner-menu-block ul li:last-child:before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: #ffffff;
+    border-radius: 100%;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.banner-menu-block ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.banner-menu-block ul li a {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+/* Our Team Banner Section CSS Start */
+/* Our Team Section CSS Start */
+.team-sec-main {
+    padding: 150px 0 50px;
+}
+
+.custom-title p {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #787878;
+    margin-top: 15px;
+    max-width: 60%;
+}
+
+.team-box-block {
+    margin-top: 52px;
+}
+
+.team-member-img {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.team-box-img:hover .team-member-img:after {
+    content: '';
+    position: absolute;
+    width: calc(100% - 50px);
+    height: calc(100% - 36px);
+    top: 19px;
+    left: 18px;
+    /* background: linear-gradient(180deg, rgba(0, 151, 152, 0) 0%, #009798 100%) !IMPORTANT; */
+    border-radius: 100%;
+    /* padding: 18px; */
+}
+
+.team-member-img:before {
+    content: '';
+    position: absolute;
+    background: url(../img/team-img-circle-img.png) no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 100%;
+}
+
+.team-con-box-block:nth-child(2) .custom-title h2:before {
+    bottom: -20px;
+}
+
+.team-member-img img {
+    width: 345px;
+    height: 345px;
+    object-fit: contain;
+    border-radius: 100%;
+    padding: 18px;
+}
+
+.team-box-img {
+    position: relative;
+}
+
+.team-social-list {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.team-box-img:hover .team-social-list {
+    opacity: 1;
+}
+
+.team-social-list ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-social-list ul li {
+    list-style: none;
+    margin: 0 5px;
+}
+
+.team-social-list ul li a {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-social-list ul li a svg {
+    width: 20px;
+    height: 20px;
+}
+
+.team-box-content {
+    margin-top: 30px;
+}
+
+.team-box-content h3 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.team-box-content p {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #787878;
+}
+
+.team-con-box-block:not(:first-child) {
+    margin-top: 80px;
+}
+
+.team-box {
+    margin-bottom: 72px;
+    padding: 0 18px;
+}
+
+.team-custom-title h3 {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    color: #009798;
+    position: relative;
+    padding: 15px 52px 15px 30px;
+    background: rgb(0 151 152 / 20%);
+    border-radius: 0px 40px 40px 0px;
+    max-width: max-content;
+}
+
+.team-custom-title h3:before {
+    content: '';
+    position: absolute;
+    background: #009798;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 12px;
+}
+
+.team-con-box-block>.team-custom-title:nth-child(2) {
+    margin-top: 40px;
+}
+
+.team-slide .team-member-img:before {
+    width: 92%;
+}
+
+.team-slide .team-box-img:hover .team-member-img:after {
+    width: calc(100% - 66px);
+}
+
+.team-slider button.slick-prev.slick-arrow {
+    background: url(../img/team-slider-left-arrow.png) no-repeat center center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+    position: absolute;
+    left: unset;
+    right: 100px;
+    top: -75px;
+}
+
+.team-slider button.slick-prev.slick-arrow::after {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: -5px;
+    border: 2px solid #009798;
+    padding: 14px;
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.team-slider button.slick-prev.slick-arrow:before {
+    display: none;
+}
+
+.team-slider button.slick-next.slick-arrow {
+    background: url(../img/team-slider-right-arrow.png) no-repeat center center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+    position: absolute;
+    top: -75px;
+    right: 30px;
+}
+
+.team-slider button.slick-next.slick-arrow::after {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    border: 2px solid #787878;
+    padding: 14px;
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.team-slider button.slick-next.slick-arrow:before {
+    display: none;
+}
+
+.team-block-slider button.slick-prev.slick-arrow {
+    background: url(../img/team-slider-left-arrow.png) no-repeat center center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+    position: absolute;
+    left: unset;
+    right: 100px;
+    top: -75px;
+}
+
+.team-block-slider button.slick-prev.slick-arrow::after {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: -5px;
+    border: 2px solid #009798;
+    padding: 14px;
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.team-block-slider button.slick-prev.slick-arrow:before {
+    display: none;
+}
+
+.team-block-slider button.slick-next.slick-arrow {
+    background: url(../img/team-slider-right-arrow.png) no-repeat center center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+    position: absolute;
+    top: -75px;
+    right: 30px;
+}
+
+.team-block-slider button.slick-next.slick-arrow::after {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    border: 2px solid #787878;
+    padding: 14px;
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.team-block-slider button.slick-next.slick-arrow:before {
+    display: none;
+}
+
+/* Our Team Section CSS End */
+
+/* Single Visionary Section CSS Start */
+.single-visionary-sec-main {
+    padding: 170px 0 80px;
+}
+
+.single-visionary-img-block {
+    position: relative;
+    z-index: 2;
+}
+
+.single-visionary-img-block:before {
+    content: '';
+    position: absolute;
+    background: #009798;
+    width: 240px;
+    height: 240px;
+    background-size: cover;
+    top: -20px;
+    left: -22px;
+    z-index: -1;
+}
+
+.single-visionary-img img {
+    width: 100%;
+}
+
+.single-visionary-con-block {
+    z-index: 1;
+    position: relative;
+    margin-left: -110px;
+    margin-top: 80px;
+}
+
+.single-visionary-box-content {
+    background: #009798;
+    padding: 16px 15px 20px 160px;
+}
+
+.single-visionary-content {
+    padding-left: 160px;
+    margin-top: 30px;
+}
+
+.single-visionary-box {
+    background: rgb(255 255 255 / 97%);
+    box-shadow: 5px 7px 24px rgb(0 0 0 / 10%);
+    padding: 52px 0 197px;
+}
+
+.single-visionary-con-block:before {
+    content: '';
+    position: absolute;
+    background: url(../img/dot-bg-img.png) no-repeat;
+    width: 345px;
+    height: 327px;
+    background-size: contain;
+    top: -60px;
+    right: -55px;
+    z-index: -1;
+}
+
+.single-visionary-box-content h3 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.single-visionary-box-content p {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #FAFAFA;
+    max-width: max-content;
+    position: relative;
+}
+
+.single-visionary-box-content p:before {
+    content: '';
+    position: absolute;
+    background: url(../img/white-line.svg) no-repeat;
+    display: block;
+    width: 130px;
+    height: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -140px;
+    background-size: contain;
+}
+
+a.single-visionary-icon-link {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #787878;
+}
+
+.single-visionary-content ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+a.single-visionary-icon {
+    background: rgb(0 151 152 / 15%);
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    margin-right: 12px;
+}
+
+a.single-visionary-icon svg {
+    width: 18px;
+    height: 18px;
+}
+
+/* Single Visionary Section CSS End */
+/* Video Section CSS Start */
+
+.video-sec-main {
+    padding: 50px 0 50px;
+    position: relative;
+}
+
+.video-title {
+    margin-bottom: 40px;
+}
+
+.video-title h2 {
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
+    color: #009798;
+    padding-left: 70px;
+    position: relative;
+}
+
+.video-title h2:before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #787878;
+}
+
+.video-img-content {
+    background: rgb(0 151 152 / 10%);
+    border-radius: 0px 0px 4px 4px;
+    padding: 15px;
+}
+
+.video-img video#video-block {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.video-img-content h3 {
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 12px;
+}
+
+.video-img-content p {
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    color: #009798;
+    margin-bottom: 9px;
+}
+
+.video-icon-title {
+    display: flex;
+}
+
+a.video-upload-add-icon svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a.video-icon {
+    margin-right: 11px;
+    max-height: 50px;
+    display: block;
+}
+
+.video-icon-title a {
+    font-family: 'Jost';
+    font-weight: 400;
+    word-break: break-all;
+    font-size: 16px;
+    line-height: 24px;
+    color: #787878;
+}
+
+/* Video Section CSS End */
+
+/* Careers Banner Section CSS Start */
+.careers-banner-sec {
+    margin-bottom: 50px;
+}
+
+.banner-box-block {
+    margin-top: 50px;
+}
+
+.banner-box-block-inner .form-field {
+    position: relative;
+}
+
+.banner-box-block-inner .form-field input,
+.banner-box-block-inner .form-field select {
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 20px 22px;
+    border: unset;
+    width: 100%;
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #787878;
+    appearance: none;
+    position: relative;
+    height: 100%;
+}
+
+.banner-box-block-inner .form-field:not(:first-child):before {
+    content: '';
+    position: absolute;
+    background: url('../img/select-down-arrow.svg') no-repeat;
+    width: 14px;
+    height: 10px;
+    background-size: contain;
+    top: 50%;
+    right: 34px;
+    transform: translateY(-50%);
+    display: block;
+    z-index: 99999;
+}
+
+.banner-box-block-inner .form-field ::placeholder,
+.banner-box-block-inner .form-field ::selection {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #787878;
+}
+
+.banner-box-block-inner form {
+    display: flex;
+}
+
+.banner-box-block-inner form .form-field {
+    width: 322px;
+    margin-right: 12px;
+}
+
+.banner-search-icon {
+    background: #009798;
+    border-radius: 6px;
+    padding: 20px 22px;
+}
+
+.banner-search-icon .search-btn span {
+    color: #ffffff;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.applied-span {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: #ff9800;
+    padding: 14px 20px;
+    margin-left: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+#contact-video-section {
+    object-fit: cover;
+}
+
+/* Careers Banner Section CSS End */
+/* Single Person Slider Section CSS Start */
+.person-sec-main {
+    background: rgb(0 151 152 / 7%);
+    padding: 80px 0;
+}
+
+.person-slide {
+    background: #FFFFFF;
+    box-shadow: 3px 4px 46px rgba(0, 0, 0, 0.1);
+    padding: 125px 100px 50px;
+}
+
+.person-slide-block {
+    display: flex;
+    align-items: center;
+}
+
+.person-img:before {
+    content: '';
+    position: absolute;
+    background: url(../img/dot-bg-img.png) no-repeat;
+    width: 219px;
+    height: 219px;
+    background-size: contain;
+    border-radius: 100%;
+    top: -50px;
+    left: -42px;
+    z-index: -1;
+}
+
+.person-img:after {
+    content: '';
+    position: absolute;
+    background: #009798;
+    width: 126px;
+    height: 126px;
+    border-radius: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+.person-img {
+    position: relative;
+    z-index: 1;
+}
+
+.person-img img {
+    border-radius: 100%;
+    max-width: initial;
+}
+
+.person-con-block {
+    margin-left: 60px;
+    position: relative;
+}
+
+.person-con-block:before {
+    content: '';
+    position: absolute;
+    background: url(../img/person-quote-icon.svg) no-repeat;
+    width: 55px;
+    height: 40px;
+    background-size: contain;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.person-con-block p {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #484848;
+    margin-bottom: 25px;
+}
+
+.person-con-block h4 {
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #009798;
+    margin-bottom: 10px;
+}
+
+.person-con-block h5 {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #787878;
+    max-width: 35%;
+    margin: 0 auto;
+}
+
+/* .person-slider button.slick-prev.slick-arrow:before {
+    display: none;
+} */
+.person-slider button.slick-prev.slick-arrow {
+    content: '';
+    position: absolute;
+    background-color: #009798;
+    width: 52px;
+    height: 52px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -30px;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.person-slider button.slick-next.slick-arrow::before {
+    content: '' !important;
+    background: url(../img/person-right-arrow.png) no-repeat center center !important;
+    background-size: contain !important;
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    z-index: 3;
+}
+
+.person-slider button.slick-prev.slick-arrow::before {
+    content: '' !important;
+    background: url(../img/person-left-arrow.png) no-repeat center center !important;
+    background-size: contain !important;
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+    z-index: 2;
+}
+
+/* .person-slider button.slick-next.slick-arrow:before {
+    display: none;
+} */
+.person-slider button.slick-next.slick-arrow {
+    content: '';
+    position: absolute;
+    background-color: #009798;
+    width: 52px;
+    height: 52px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 100%;
+    right: -30px;
+    z-index: 1;
+}
+
+#skills li a {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #009798;
+    width: fit-content;
+    padding: 5px 21px 5px 21px;
+    display: block;
+    background: rgb(0 151 152 / 15%);
+    border-radius: 4px;
+}
+
+#skills li {
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.job-detail-page {
+    margin-bottom: 40px;
+}
+
+#job_specification {
+    white-space: pre-line;
+}
+
+/* Single Person Slider Section CSS End */
+/* Culture Section CSS Start */
+.culture-sec-main {
+    padding: 150px 0 0;
+}
+
+.culture-inner .custom-title h2 {
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.culture-inner .custom-title h2::before {
+    background: url(../img/line.svg) no-repeat center center;
+    margin: 7px auto !important;
+}
+
+.culture-con-block {
+    margin-top: 50px;
+}
+
+.culture-title h3 {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.culture-title p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #787878;
+    margin-bottom: 30px;
+}
+
+.culture-img {
+    float: right;
+    margin-left: 70px;
+}
+
+/* Culture Section CSS End */
+
+/* Our Perks Section CSS Start */
+.perks-sec-main {
+    padding: 20px 0 150px;
+    position: relative;
+}
+
+.perks-sec-main::before {
+    content: '';
+    position: absolute;
+    background: url(../img/perk-bg-img.png) no-repeat;
+    width: 280px;
+    height: 400px;
+    background-size: contain;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.perks-con-block {
+    margin-top: 50px;
+}
+
+.perks-title h3 {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.perks-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.perks-title a {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #009798;
+    padding: 20px 52px;
+    display: flex;
+    align-items: center;
+}
+
+.perks-title a svg {
+    margin-left: 12px;
+}
+
+/* .perks-box-block {
+    margin-top: 40px;
+} */
+.perks-box-img img {
+    height: 70px;
+    object-fit: contain;
+    transition: all 0.3s ease-in-out;
+}
+
+.perks-box-block .col-md-2 {
+    margin-bottom: 30px;
+    display: none;
+}
+
+.perks-box {
+    background: rgb(255 255 255 / 30%);
+    border: 1px solid #787878;
+    border-radius: 6px;
+    padding: 35px 15px 20px;
+    height: 100%;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.perks-box:hover {
+    background: #009798;
+    border-color: #009798;
+}
+
+.perks-box-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+
+.perks-box:hover .perks-box-img img {
+    filter: brightness(0) invert(1);
+}
+
+.perks-box-content p {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #787878;
+    transition: all 0.3s ease-in-out;
+}
+
+.perks-box:hover .perks-box-content p {
+    color: #ffffff;
+}
+
+.perks-box-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.perks-box-btn a {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #009798;
+    padding: 20px 52px;
+    display: flex;
+    align-items: center;
+}
+
+.perks-box-btn a svg {
+    margin-left: 12px;
+    transform: rotate(90deg);
+}
+
+/* Our Perks Section CSS End */
+/* How We Hire Section CSS Start */
+section.hire-sec-main {
+    background: rgb(0 151 152 / 7%);
+    padding: 130px 0 1px;
+}
+
+.hire-inner .custom-title h2 {
+    text-align: center;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.hire-inner .custom-title h2::before {
+    background: url(../img/line.svg) no-repeat center center;
+    margin: 7px auto !important;
+}
+
+.hire-con-block {
+    margin-top: 50px;
+    padding-top: 100px;
+    position: relative;
+}
+
+.hire-con-block:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-left: 2px dashed #787878;
+    width: 2px;
+    height: calc(100% - 250px);
+    display: block;
+    max-height: max-content;
+}
+
+.hire-content-odd,
+.hire-content-even {
+    position: relative;
+}
+
+.hire-number-title h4 {
+    font-family: 'League Spartan';
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    color: #009798;
+}
+
+.hire-content p {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #787878;
+}
+
+.hire-number {
+    font-family: 'League Spartan';
+    font-weight: 600;
+    font-size: 206px;
+    line-height: 206px;
+    display: flex;
+    align-items: center;
+    color: #009798;
+    opacity: 0.05;
+}
+
+.hire-number-title {
+    border: 2px dashed #787878;
+    max-width: max-content;
+    padding: 13px;
+    border-radius: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hire-content-odd .hire-number-title:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -82px;
+    transform: translateY(-50%);
+    width: 79px;
+    height: 2px;
+    border-bottom: 2px dashed #787878;
+}
+
+.hire-content-odd .hire-number-title:after {
+    content: '';
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #009798;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 100%;
+    border: 4px solid #ffffff;
+}
+
+.hire-content-even .hire-number-title:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -82px;
+    transform: translateY(-50%);
+    width: 79px;
+    height: 2px;
+    border-bottom: 2px dashed #787878;
+}
+
+.hire-content-even .hire-number-title:after {
+    content: '';
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    right: -100px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #009798;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 100%;
+    border: 4px solid #ffffff;
+}
+
+.hire-number-title h4 {
+    background: #FFFFFF;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    border: 20px solid #009798;
+    max-width: max-content;
+    border-radius: 100%;
+}
+
+.hire-content-odd .hire-number-content {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 450px;
+    padding-right: 30px;
+}
+
+.hire-content-odd .hire-number-content .hire-number {
+    position: absolute;
+    top: -100px;
+    left: -45px;
+}
+
+.hire-content-even .hire-number-content {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 450px;
+    padding-left: 30px;
+}
+
+.hire-content-even .hire-number-content .hire-number {
+    position: absolute;
+    top: -100px;
+    right: -45px;
+}
+
+.hire-content {
+    position: relative;
+}
+
+.hire-number-title:not(:last-child) {
+    margin-bottom: 60px;
+}
+
+.hire-con-block .hire-content-odd:last-child .hire-number-content .hire-content p {
+    margin-left: 200px;
+}
+
+/* How We Hire Section CSS End */
+/* Open Position Section CSS Start */
+/* .position-sec-main {
+    padding: 200px 0 0px;
+} */
+.position-box-block {
+    margin-top: 50px;
+}
+
+.position-box-block-inner .form-field {
+    position: relative;
+}
+
+.position-box-block-inner .form-field input,
+.position-box-block-inner .form-field select {
+    background: rgb(120 120 120 / 10%);
+    border-radius: 6px;
+    padding: 20px 22px;
+    border: unset;
+    width: 100%;
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #787878;
+    appearance: none;
+    position: relative;
+    height: 100%;
+}
+
+.position-box-block-inner .form-field:not(:first-child):before {
+    content: '';
+    position: absolute;
+    background: url('../img/select-down-arrow.svg') no-repeat;
+    width: 14px;
+    height: 10px;
+    background-size: contain;
+    top: 50%;
+    right: 34px;
+    transform: translateY(-50%);
+    display: block;
+    z-index: 1;
+}
+
+.position-box-block-inner .form-field ::placeholder,
+.position-box-block-inner .form-field ::selection {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #787878;
+}
+
+.position-box-block-inner form {
+    display: flex;
+}
+
+.position-box-block-inner form .form-field {
+    width: 322px;
+    margin-right: 12px;
+}
+
+.position-search-icon {
+    background: #009798;
+    border-radius: 6px;
+    padding: 20px 22px;
+}
+
+.position-box {
+    margin-top: 45px;
+}
+
+.position-box-content {
+    background: #FFFFFF;
+    padding: 25px;
+    border-bottom: 1px solid #009798;
+    margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 4px 24px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+}
+
+.position-box-content:hover {
+    background: #009798;
+    box-shadow: 12px 17px 42px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+}
+
+.position-box .col-md-6 {
+    padding: 0 15px;
+}
+
+.position-time-block p {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #009798;
+    margin-bottom: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.position-time-block h5 {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 30px;
+    color: #000000;
+    transition: all 0.3s ease-in-out;
+}
+
+.position-list-block {
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.position-list-block ul li a {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    transition: all 0.3s ease-in-out;
+    color: #787878;
+}
+
+.position-list-block ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.position-list-block ul li img {
+    margin-right: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.position-list-block ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.position-apply-btn {
+    display: flex;
+}
+
+.position-apply-btn a {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    background: #009798;
+    padding: 14px 20px;
+    margin-left: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.position-box-content:hover .position-time-block p,
+.position-box-content:hover .position-time-block h5,
+.position-box-content:hover .position-list-block ul li a {
+    color: #ffffff;
+}
+
+.position-box-content:hover .position-list-block ul li img {
+    filter: brightness(0) invert(1);
+}
+
+.position-box-content:hover .position-apply-btn a {
+    background: #FFFFFF;
+    color: #009798;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 99;
+    z-index: 2;
+}
+
+.position-apply-btn .popup {
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 1370px;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.apply-img-block {
+    margin-top: 30px;
+}
+
+.popup-title-divider {
+    background: url(../img/home/line.svg);
+    background-repeat: no-repeat;
+    width: 152px;
+    height: 3px;
+    margin: 7px auto;
+}
+
+.apply-img-block p {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    color: #787878;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.apply-candidate-popup {
+    max-width: 1250px !important;
+}
+
+.apply-candidate-popup .modal-header {
+    justify-content: right;
+}
+
+button.close {
+    padding: 0;
+    cursor: pointer;
+    background: 0 0;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.search-btn {
+    background: transparent;
+    border: none;
+}
+
+.position-apply-btn a.close {
+    background-color: unset;
+    padding: 0;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.position-apply-btn a.close:hover {
+    color: #009798;
+}
+
+.popup-box {
+    margin-top: 48px;
+}
+
+.popup-sec-main {
+    height: 800px;
+    overflow-x: hidden;
+}
+
+.popup-sec-main .row {
+    height: 100%;
+}
+
+.popup-box label {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #868686;
+    margin-bottom: 5px;
+}
+
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+.popup-box .form-field {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.popup-con-block {
+    padding-top: 10px;
+}
+
+.popup-box .form-field input,
+.popup-box .form-field textarea,
+.popup-box .form-field select {
+    width: 100%;
+    /* height: 50px; */
+    border-radius: 10px;
+    border: 1px solid rgb(0 0 0 / 50%);
+    opacity: 0.5;
+    padding: 15px;
+}
+
+.btn-block {
+    display: block;
+}
+
+.btn-primary {
+    background-color: #009798;
+}
+
+.candidate-submit-btn {
+    width: 100%;
+}
+
+.popup-box .form-field:nth-child(7) input,
+.popup-box .form-field:nth-child(8) input,
+.popup-box .form-field:nth-child(9) input {
+    border: 1px dashed rgba(134, 134, 134, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    /* display: block; */
+    height: 90px;
+}
+
+.single-post-sec-main .post-form-list input[type="text"] {
+    height: auto;
+}
+
+.popup-sec-main .post-form-list input {
+    width: calc(33.33% - 20px) !important;
+}
+
+.popup-box .form-field .post-form-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.post-form-list input {
+    width: calc(33.33% - 20px);
+    margin: 0 10px;
+    height: 30px;
+    border: 1px solid rgb(120 120 120 / 35%);
+    border-radius: 4px;
+}
+
+.popup-btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.popup-btn a {
+    width: 100%;
+    text-align: center;
+}
+
+.apply-img-block img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.popup-con-block h2 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 30px;
+    color: #000723;
+}
+
+.popup-box .form-field label {
+    position: absolute;
+    left: 23px;
+    top: -5px;
+    background: #ffffff;
+    display: block;
+    max-width: max-content;
+    z-index: 2;
+}
+
+.popup-sec-main .col-md-6 {
+    height: 100%;
+    padding: 0;
+}
+
+.popup-sec-main .col-md-6>div {
+    padding: 0 15px;
+}
+
+/* Open Position Section CSS Start */
+
+/* Person Section CSS Start */
+
+.profile-sec-main {
+    margin-top: 147px;
+}
+
+.profile-con-block {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 46px rgba(0, 0, 0, 0.13);
+    border-radius: 9px;
+    padding: 120px 25px 30px;
+    position: relative;
+    margin-bottom: 80px;
+    transition: 0.3s all ease-in-out;
+}
+
+.profile-con-block:hover {
+    box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.12);
+}
+
+.profile-inner {
+    margin-top: 100px;
+    position: relative;
+}
+
+.profile-img-block {
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid #009798;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.profile-img-block img {
+    border-radius: 50%;
+}
+
+.profile-content-block h3 {
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 17px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.profile-content-block h4 {
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #009798;
+    margin-bottom: 18px;
+}
+
+.profile-content-block p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #787878;
+    margin-bottom: 20px;
+}
+
+.profile-content-block>a {
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #787878;
+    margin-bottom: 18px;
+    display: block;
+}
+
+.profile-skill-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-skill-btn a {
+    font-family: 'Jost';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #009798;
+    box-shadow: 0px 1px 25px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    padding: 12px 25px;
+    margin: 0 10px;
+}
+
+.candidate-job-edit-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.candidate-job-edit-btn a {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+    background: #009798;
+    box-shadow: 0px 1px 25px rgb(0 0 0 / 5%);
+    border-radius: 4px;
+    padding: 8px 15px;
+    margin: 0 10px;
+}
+
+
+.profile-skill-title>a {
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #009798;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.job-con-block {
+    background: #FFFFFF;
+    box-shadow: 1px 1px 40px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.job-con-block h4 {
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.job-box-block {
+    border: 1px solid rgb(120 120 120 / 20%);
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.job-detail-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.job-detail-content h5 {
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #009798;
+    margin: 10px 0 10px;
+}
+
+.job-detail-btn {
+    display: flex;
+}
+
+.job-detail-btn span {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+    background: #009798;
+    border-radius: 4px;
+    padding: 8px 15px;
+}
+
+.job-detail-pending-btn {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+    background: #ffc107 !important;
+    border-radius: 4px;
+    padding: 8px 15px;
+}
+
+.job-detail-rejected-btn {
+    font-family: 'Jost';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: #FFFFFF;
+    background: #dc3545 !important;
+    border-radius: 4px;
+    padding: 8px 15px;
+}
+
+/* Person Section CSS End */
+
+#return-to-top {
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    background: linear-gradient(112.65deg, #2fc3e4 .47%, #009798 99.58%);
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    display: none;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    z-index: 1
+}
+
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    top: 12px;
+    font-size: 16px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease
+}
+
+#return-to-top:hover {
+    background: linear-gradient(112.65deg, #2fc3e4 .47%, #009798 99.58%)
+}
+
+#return-to-top:hover i {
+    color: #fff;
+    top: 10px
+}
+
+#chat-bot-message-container {
+    display: none !important;
+}

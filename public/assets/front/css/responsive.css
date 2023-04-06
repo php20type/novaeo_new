@@ -1,0 +1,1502 @@
+@media screen and (max-width: 1800px) {
+    .banner-content {
+        left: 290px;
+    }
+    .perks-sec-main::before {
+        width: 200px;
+    }
+    .banner-content {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .popup-sec-main {
+        height: 745px;
+    }
+}
+@media screen and (max-width: 1700px){
+    .get-in-img-con-block {
+        padding: 55px 40px;
+        max-width: 600px;
+    }
+    .banner-content {
+        left: 14%;
+    }
+    .popup-sec-main {
+        height: 700px;
+    }
+}
+@media screen and (max-width: 1600px) {
+    .perks-sec-main {
+        padding: 20px 0 100px;
+    }
+    .perks-con-block {
+        margin-top: 20px;
+    }
+    .culture-sec-main {
+        padding: 100px 0 0;
+    }
+    .slider-img-con h2 {
+        font-size: 100px;
+        line-height: 110px;
+    }
+    .map-img-block img {
+        width: 100%;
+    }
+    .banner-content {
+        left: 11%;
+    }
+    .perks-sec-main::before {
+        width: 120px;
+        height: 300px;
+    }
+    .popup-sec-main {
+        height: 655px;
+    }
+    section.hire-sec-main {
+        padding: 100px 0 1px;
+    }
+}
+@media screen and (max-width: 1500px){
+    .single-visionary-sec-main {
+        padding: 120px 0 40px;
+    }
+    .get-in-img-con-block {
+        max-width: 550px;
+    }
+    .banner-content {
+        left: 8.7%;
+    }
+}
+@media screen and (max-width : 1440px) {
+    .perks-title h3,
+    .culture-title h3 {
+        font-size: 42px;   
+         margin-bottom: 10px;
+    }
+    .hire-number-title:not(:last-child) {
+        margin-bottom: 140px;
+    }
+    section.hire-sec-main {
+        padding: 80px 0 1px;
+    }
+    .perks-sec-main {
+        padding: 20px 0 80px;
+    }
+    .banner-slider-sec .slick-list .slick-track {
+        height: 100%;
+        display: flex;
+    }
+    .custom-title h2 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .banner-content {
+        left: 5.8%;
+    }
+    .perks-sec-main::before {
+        display: none;
+    }
+    .position-apply-btn  .popup {
+        width: 90%;
+    }
+}
+@media screen and (max-width : 1400px){
+    .get-in-img img {
+        width: 90%;
+    } 
+    .get-in-img-con-block {
+        margin-left: -120px;
+    }
+    section.get-in-sec-main {
+        padding: 360px 0 90px;
+    }
+    .map-sec-main{
+        padding: 100px 0;
+    }
+    .get-in-img-con-block:after {
+        bottom: -85px;
+    }
+    .team-box {
+        margin-bottom: 40px;
+    }
+    .team-con-box-block:not(:first-child) {
+        margin-top: 60px;
+    }
+    .banner-content {
+        left: 4.8%;
+    }
+    .single-visionary-sec-main {
+        padding: 100px 0 50px;
+    }
+    .newsletter-sec-main {
+        padding: 100px 0;
+    }
+    .culture-sec-main {
+        padding: 100px 20px 0;
+    }
+    .perks-sec-main {
+        padding: 50px 20px 100px;
+    }   
+    section.hire-sec-main {
+        padding: 100px 30px 1px;
+    }
+    .position-sec-main {
+        padding: 100px 20px 0px;
+    }
+}
+@media screen and (max-width : 1366px) {
+    .about-sec-main {
+        padding: 100px 80px;
+    }
+    .who-sec-main {
+        padding: 50px 80px 100px;
+    }
+    .banner-slider-sec .slider-img-con {
+        width: 100%;
+    }
+    .newsletter-sec-main {
+        padding: 100px 20px;
+    }
+    .newsletter-img-block img {
+        width: 100%;
+    }
+    .banner-content {
+        left: 2.8%;
+    }
+    .team-custom-title h3 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .single-visionary-sec-main {
+        padding: 100px 50px 50px;
+    }
+    .single-visionary-con-block:before {
+        width: 300px;
+        height: 300px;
+        top: -40px;
+        right: -40px;
+    }
+    .careers-banner-sec {
+        margin-bottom: 50px;
+    }
+    .person-sec-main {
+        padding: 100px 30px;
+    }
+    
+    .popup-con-block h2 {
+        font-size: 30px;
+    }
+    .position-apply-btn  .popup {
+        padding: 40px 20px 20px;
+    }
+    #contact-video-section {
+        height: 800px;
+    }
+
+    .single-visionary-sec-main {
+        padding: 120px 0 40px;
+    }
+}
+@media screen and (max-width : 1300px) {
+    #contact-video-section {
+        height: 720px;
+    }
+    .map-sec-main {
+        padding: 80px 0;
+    }
+    .footer-sec-main {
+        padding: 30px 0 30px;
+    }
+    .footer-menu-area {
+        margin-bottom: 35px;
+    }
+    .footer-menu-area ul li a {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .header-main-sec {
+    padding: 14px 0;
+}
+    .get-in-img img {
+        width: 75%;
+    }
+    .get-in-img-con-block {
+        margin-left: -245px;
+        padding: 40px 40px;
+    }
+    .get-in-img-con-block:after {
+        width: 280px;
+        height: 250px;
+    }
+    .business-sec-main {
+        padding: 0 20px 400px;
+    }
+    section.get-in-sec-main {
+        padding: 250px 20px 90px;
+    }
+    .get-in-img-con-block {
+        max-width: 500px;
+        padding: 30px;
+    }
+    .get-in-contact-icon svg {
+        width: 100%;
+        height: 100%;
+    }
+    .team-sec-main {
+        padding: 50px 20px 50px;
+    }
+    .team-slide .team-member-img:before {
+        width: 95%;
+    }
+    .banner-content h2 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .banner-menu-block ul li a {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .hire-content-even .hire-number-title:before {
+        right: -50px;
+        width: 49px;
+    }
+    .hire-content-even .hire-number-title:after {
+        right: -60px;
+    }
+    .hire-content-even .hire-number-content .hire-number {
+        right: -40px;
+        top: -80px;
+        font-size: 160px;
+        line-height: 160px;
+    }
+    .hire-content-odd .hire-number-title:before {
+        left: -50px;
+        width: 49px;
+    }
+    .hire-content-odd .hire-number-title:after {
+        left: -60px;
+    }
+    .hire-content-odd .hire-number-content .hire-number {
+        top: -80px;
+        left: -40px;
+        font-size: 160px;
+        line-height: 160px;
+    }
+    .popup-box .form-field {
+        margin-bottom: 20px;
+    }
+    .apply-img-block {
+        margin-top: 75px;
+    }
+     .get-in-form form .form-field input, .get-in-form form .form-field textarea {
+            padding: 14px;
+    }
+}
+@media screen and (max-width: 1280px) {
+
+    .business-box:before {
+        /*left: 10px;*/
+    }
+    .get-in-img-con-block:after {
+        width: 175px;
+        height: 210px;
+        right: -65px;
+    }
+    .team-member-img img {
+        width: 300px;
+        height: 300px;
+    }
+    .banner-content {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .video-sec-main {
+        padding: 50px 30px 0;
+    }
+    .banner-content {
+        left: 3.5%;
+    }
+    .hire-number-title {
+        padding: 10px;
+    }
+    .hire-number-title h4 {
+        font-size: 30px;
+        line-height: 30px;
+        padding: 20px;
+    }
+    .hire-content p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .banner-box-block-inner .form-field input, .banner-box-block-inner .form-field select {
+        padding: 15px 18px;
+        font-size: 16px;
+        line-height: 16px;
+        height: 60PX;
+    }
+    .banner-search-icon {
+        padding: 15px 18px;
+    }
+    .culture-img {
+        margin-left: 40px;
+    }
+    .position-time-block h5 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .position-apply-btn a {
+        font-size: 15px;
+        line-height: 15px;
+        padding: 14px 20px;
+    }
+    .team-box-img:hover .team-member-img:after {
+        width: calc(100% - 62px);
+    }
+}
+@media screen and (max-width: 1200px) {
+    #contact-video-section {
+        height: 600px;
+        width: 700px;
+    }
+    nav.header-nav ul li {
+        padding: 20px 22px;
+    }
+    .slider-img-con h2 {
+        font-size: 80px;
+        line-height: 90px;
+    }
+    .about-sec-main {
+        padding: 100px 50px 50px;
+    }
+    .who-sec-main {
+        padding: 50px 50px 100px;
+    }
+    .about-con-block, .who-con-block {
+        padding-left: 20px;
+    }
+    .get-in-img-con-block {
+        max-width: 430px;
+    }
+    .custom-title h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .get-in-form form .form-field input, .get-in-form form .form-field textarea {
+        padding: 10px 12px;
+    }
+    .about-btn a, .get-in-btn button {
+        font-size: 18px;
+        line-height: 18px;
+        padding: 15px 40px;
+    }
+    .about-content p, .who-content p, .who-con-block-2 .who-content p, .newsletter-content p {
+        font-size: 18px;
+        line-height: 28px;
+        margin-bottom: 20px;
+    }
+    .business-content p, .get-in-contact-content a {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .business-box-block {
+        padding: 50px 20px 40px;
+        max-width: 313px;
+        margin: 0 auto;
+    }
+    .business-content h3 {
+        font-size: 22px;
+        line-height: 22px;
+        margin-bottom: 20px;
+    }
+    .business-box:before {
+        left: 0px;
+    }
+    .business-content p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .business-box-block {
+        padding: 50px 20px 20px;
+    }
+    .get-in-contact-box {
+        padding: 30px 36px;
+    }
+    section.get-in-sec-main {
+        padding: 100px 20px 70px;
+    }
+    .get-in-contact-content {
+        margin-top: 20px;
+    }
+    /* .team-member-img img {
+        height: auto;
+    } */
+    .team-slide .team-member-img:before {
+        width: 100%;
+    }
+    .team-custom-title h3 {
+        font-size: 20px;
+        line-height: 20px;
+        padding: 13px 40px 13px 30px;
+    }
+    .team-box-content h3 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .team-box-content p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .single-visionary-con-block {
+        margin-left: -135px;
+    }
+    .banner-box-block-inner form .form-field {
+        width: 280px;
+    }
+    .careers-banner-sec {
+        margin-bottom: 10px;
+    }
+    .person-sec-main {
+        padding: 50px 30px;
+    }
+    .person-con-block h5 {
+        max-width: 100%;
+    }
+    .perks-sec-main {
+        padding: 50px 20px 50px;
+    }
+    section.hire-sec-main {
+        padding: 50px 30px 1px;
+    }
+    .perks-box-block .col-md-2 {
+        WIDTH: 25%;
+    }
+    .hire-content-odd .hire-number-content, .hire-content-even .hire-number-content {
+        max-width: 370px;
+    }
+    .perks-con-block {
+        margin-top: 0px;
+    }
+    .perks-title h3, .culture-title h3 {
+        font-size: 40px;
+        line-height: 54px;
+    }
+    .team-box-img:hover .team-member-img:after {
+        width: calc(100% - 36px);
+    }
+    .team-member-img img {
+        height: 100%;
+    }
+}
+@media screen and (max-width: 1199px){
+    .banner-content {
+        left: 7.5%;
+    }
+    .video-icon-title a {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    a.video-icon {
+        margin-right: 8px;
+    }
+    a.video-icon svg {
+        width: 12px;
+    }
+    .video-sec-main {
+        padding: 30px 30px 0;
+    }
+    .hire-con-block .hire-content-odd:last-child .hire-number-title {
+        margin-bottom: 70px !important;
+    }
+    .hire-number-title:not(:last-child) {
+        margin-bottom: 100px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .banner-content {
+        left: 6.5%;
+    }
+}
+@media screen and (max-width: 1080px){
+    .get-in-img img {
+        width: 65%;
+    }
+    .get-in-img-con-block {
+        margin-left: -330px;
+    }
+    .get-in-con-block-inner {
+        top: -485px;
+    }
+    section.get-in-sec-main {
+        padding: 180px 20px 70px;
+        margin-top: 150px;
+    }
+    .footer-menu-area ul li {
+        margin: 0 30px;
+    }
+    .footer-menu-area ul li a {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .banner-content {
+        left: 4.5%;
+    }
+}
+@media screen and (max-width: 992px){
+    .perks-box-block .col-md-2 {
+        WIDTH: 33.33%;
+    }
+    .get-in-img-con-block {
+        max-width: 100%;
+    }
+    .about-sec-main {
+        padding: 100px 50px 10px;
+    }
+    .header-btn a {
+        font-size: 18px;
+        line-height: 18px;
+        padding: 10px 30px;
+    }
+    .header-menubar {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .header-menubar .menubar-close-btn {
+        display: block !important;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        padding: 20px 20px 10px 10px;
+    }
+    nav.header-nav ul li {
+        padding: 15px 20px;
+    }
+    .header-menubar nav {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        z-index: 99;
+        background-color: #ffffff;
+        transition: all 0.3s ease-in-out;
+    }
+    .header-menubar nav.menu-drawer-open {
+        right: 0%;
+    }
+    .header-menubar li a{
+        color: #000000;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .menubar-btn:hover{
+        color: #FFFFFF!important;
+    }
+    .header-menubar li{
+        text-align: center;
+    }
+    .header-menubar nav ul {
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .header-menubar .menubar-btn{
+        display: block;
+        margin: unset;
+        position: absolute;
+    }
+    .menubar-btn {
+        right: 45px;
+        transform: translateY(-50%);
+        top: 50%;
+        position: absolute;
+        margin: unset;
+    }
+    .header-menubar i {
+        font-size: 30px;
+        color: #009798;
+    }
+    .menubar-close-btn a {
+        float: right;
+    }
+    nav.header-nav ul li a {
+        color: #000000;
+    }
+    nav.header-nav ul li.bg-blue {
+        background-color: transparent;
+    }
+    nav.header-nav ul li.bg-blue a {
+        padding: 15px 20px;
+    }
+    .header-nav .menubar-close-btn a {
+        display: block;
+    }
+    .header-btn {
+        padding-right: 30px;
+    }
+    section.about-sec-main .col-md-6 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    section.about-sec-main .col-md-6, .who-inner .col-md-6 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .custom-title h2:before {
+        background: url(../img/line.svg) no-repeat center center;
+    }
+    .about-btn {
+        display:flex;
+        justify-content: center;
+    }
+    .who-img-block {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .who-sec-main {
+        padding: 0px 50px 100px;
+    }
+    .map-sec-main {
+        padding: 50px 0;
+    }
+    .who-img-block:before {
+        top: 195px;
+    }
+    .who-content {
+        margin-top: -20px;
+        margin-bottom: 50px;
+    }
+    .about-con-block, .who-con-block {
+        padding-left: 0;
+    }
+    .who-con-block.who-con-block-2 .who-content {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .business-sec-main {
+        padding: 0 20px 100px;
+    }
+    .business-con-block .col-md-4 {
+        width: 50%;
+    }
+    .business-con-block .col-md-4:not(:last-child) {
+        margin-bottom: 60px;
+    }
+    .business-box:before {
+        background-position: center center;
+    }
+    .business-box-block {
+        max-width: 240px;
+    }
+    .get-in-img img {
+        width: 100%;
+    }
+    .get-in-img-block {
+        flex-wrap: wrap;
+    }
+    .get-in-con-block-inner {
+        top: unset;
+        position: relative;
+    }
+    section.get-in-sec-main {
+        padding: 50px 20px 70px;
+        margin-top: 0px;
+    }
+    .get-in-img-con-block {
+        margin: 40px auto;
+    }
+    .get-in-form form {
+        justify-content: center;
+    }
+    .newsletter-inner .col-md-6 {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .newsletter-content {
+        margin-top: 40px;
+        padding-right: 0;
+        padding-bottom: 40px;
+    }
+    .newsletter-sec-main {
+        padding: 50px 0px;
+    }
+    .get-in-img-con-block:after {
+        display: none;
+    }
+    .who-sec-main {
+        padding: 0px 50px 80px;
+    }
+    .business-content h3 {
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .business-content p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .banner-content h2 {
+        font-size: 55px;
+        line-height: 55px;
+    }
+    .banner-content h2 {
+        font-size: 55px;
+        line-height: 55px;
+        text-align: center;
+    }
+    .banner-content {
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+    }
+    .banner-menu-block ul {
+        justify-content: center;
+    }
+    .team-con-box-block:not(:first-child) {
+        margin-top: 20px;
+    } 
+    .team-con-box-block .custom-title {
+        text-align: center;
+    }
+    .custom-title p {
+        max-width: 100%;
+    }
+    .team-box-block .col-lg-4 {
+        width: 50%;
+    }
+    .team-slider button.slick-arrow, .team-block-slider button.slick-arrow {
+        top: 98% !important;
+    }
+    .team-slider button.slick-prev.slick-arrow, .team-block-slider button.slick-prev.slick-arrow {
+        left: calc(50% - 40px);
+    }
+    .team-slider button.slick-next.slick-arrow, .team-block-slider button.slick-next.slick-arrow {
+        right: calc(50% - 40px);
+    }
+    .team-box-block .row {
+        justify-content: center;
+    }
+    .banner-menu-block ul li:last-child {
+        margin: 0;
+    }
+    .banner-content {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .video-inner .col-md-4 {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .single-visionary-con-block {
+        margin-left: 0;
+    }
+    .single-visionary-box {
+        padding: 52px 0 100px;
+    }
+    .single-visionary-sec-main {
+        padding: 80px 50px 50px;
+    }
+    .banner-box-block-inner form .form-field {
+        width: 200px;
+    }
+    .banner-box-block-inner form {
+        display: flex;
+        justify-content: center;
+    }
+    .banner-con-block img {
+        height: 400px;
+        object-fit: cover;
+    }
+    .person-slide-block {
+        flex-direction: column;
+    }
+    .person-con-block {
+        margin-top: 30px;
+    }
+    .culture-img {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .culture-sec-main {
+        padding: 50px 20px 0;
+    }
+    .culture-img img {
+        width: 100%;
+    }
+    .perks-title h3, .culture-title h3 {
+        text-align: center;
+    }
+    .culture-title p {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .perks-title {
+        justify-content: center;
+    }
+    .hire-number-title {
+        margin-left: 0;
+    }
+    .hire-con-block:before {
+        left: 65px;
+        transform: translateY(-50%);
+    }
+    .hire-content-odd .hire-number-title:before {
+        left: unset;
+        width: 49x;
+        right: -50px;
+    }
+    .hire-content-odd .hire-number-title:after {
+        left: unset;
+        right: -60px;
+    }
+    .hire-content-odd .hire-number-content {
+        left: unset;
+        max-width: 450px;
+        right: 0;
+    }
+    .hire-content-odd .hire-number-content, .hire-content-even .hire-number-content {
+        max-width: 450px;
+        padding: 0;
+    }
+    .hire-content-odd .hire-number-content .hire-number {
+        right: -40px;
+        left: unset;
+    }
+    .hire-con-block .hire-content-odd:last-child  .hire-number-content {
+        width: 100%;
+        left: 40px !IMPORTANT;
+    }
+    .hire-con-block {
+        padding-top: 40px;
+    }
+    .custom-title h2 {
+        text-align: center;
+    }
+    .position-box .col-md-6 {
+        width: 100%;
+    }
+    .position-sec-main {
+        padding: 50px 20px 0px;
+    }
+    .apply-img-block img, .popup-sec-main .col-md-6 > div {
+        height: 100%;
+    }
+    .team-box-img:hover .team-member-img:after {
+        width: calc(100% - 36px);
+    }
+    .profile-con-block {
+        margin-bottom: 40px;
+    }
+    .profile-sec-main {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    #contact-video-section {
+        height: 400px;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #return-to-top {
+        bottom: 40px;
+    }
+    section.get-in-sec-main {
+        padding: 50px 20px 40px;
+    }
+    .person-slide {
+    box-shadow: none;
+}
+    .who-img-block:before {
+        top: 250px;
+    }
+    .slider-img-con h5 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .slider-img-con h2 {
+        font-size: 55px;
+        line-height: 60px;
+    }
+    .business-content h3 {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .business-con-block .col-md-4 {
+        width: 100%;
+    }
+    .business-content {
+        height: 210px;
+    }
+    .get-in-contact-block .col-md-4:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .custom-title h2 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .footer-menu-area ul {
+        flex-direction: column;
+    }
+    .footer-menu-area ul li {
+        margin: 0 30px 20px;
+    }
+    .footer-menu-area {
+        margin-bottom: 5px;
+    }
+    .footer-menu-area ul li a {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .who-sec-main {
+        padding: 0px 50px 60px;
+    }
+    .business-con-block {
+        margin-top: 80px;
+    }
+    .header-btn a {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .get-in-contact-icon {
+        width: 40px;
+        height: 40px;
+    }
+    .business-content p, .get-in-contact-content a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .about-btn a, .get-in-btn button {
+        font-size: 16px;
+        line-height: 16px;
+        padding: 15px 25px;
+    }
+    .get-in-form form .form-field ::placeholder, .get-in-form form .form-field ::selection {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .business-sec-main {
+        padding: 0 20px 50px;
+    }
+    .footer-sec-main {
+        padding: 30px 0 30px;
+    }
+    .team-member-img:before {
+        border-radius: unset;
+    }
+    .team-member-img:before {
+        border-radius: unset;
+        background: url(../img/team-img-circle-img.png) no-repeat center center;
+        background-size: contain !important;
+    }
+    .team-member-img img {
+        margin: 0 auto;
+        width: 270px;
+        height: 270px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .banner-con-block img {
+        height: 300px;
+    }
+    .team-box-content p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .team-sec-main {
+        padding: 50px 20px 0px;
+    }
+    .video-title {
+        margin-bottom: 20px;
+    }
+    .perks-box-block .col-md-2 {
+        WIDTH: 50%;
+    }
+    .banner-box-block-inner form {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .banner-con-block img {
+        height: 500px;
+    }
+    .banner-box-block-inner form .form-field {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .banner-box-block-inner {
+        padding: 0 20px;
+    }
+    .banner-search-icon {
+        width: 100%;
+    }
+    .person-con-block {
+        margin-left: 0px;
+    }
+    .person-slide {
+        padding: 100px 30px 50px;
+    }
+    .hire-con-block:before {
+        display: none;
+    }
+    .hire-content-odd .hire-number-content, .hire-content-even .hire-number-content {
+        max-width: 350px;
+    }
+    .hire-number-title {
+        margin-left: -40px;
+    }
+    .hire-content-even .hire-number-content .hire-number, .hire-content-odd .hire-number-content .hire-number {
+        top: -50px;
+        font-size: 120px;
+        line-height: 120px;
+    }
+    .hire-content p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .person-img:before {
+        width: 180px;
+        height: 180px;
+        left: -15px;
+    }
+    .person-img:after {
+        width: 80px;
+        height: 80px;
+        right: 30px;
+    }
+    .person-slider button.slick-arrow {
+        width: 70px;
+        height: 70px;
+    }
+    .person-slider button.slick-next.slick-arrow::before {
+        background-size: contain !IMPORTANT;
+        right: 15px;
+    }
+    .person-slider button.slick-prev.slick-arrow::before {
+        background-size: contain !important;
+        left: 15px;
+    }
+    .culture-title p {
+        margin-bottom: 15px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .culture-img {
+        margin-bottom: 20px;
+    }
+    .culture-sec-main {
+        padding: 50px 15px 0;
+    }
+    section.hire-sec-main {
+        padding: 50px 30px 50px;
+    }
+    .person-con-block p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+    .person-con-block h4 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .person-con-block h5 {
+        font-size: 15px;
+    }
+    .perks-box-btn a {
+        font-size: 15px;
+        line-height: 18px;
+        padding: 15px 35px;
+    }
+    .position-box-block-inner form .form-field {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .position-box-block-inner form {
+        flex-wrap: wrap;
+    }
+    .position-search-icon {
+        width: 100%;
+    }
+    .position-list-block {
+        margin-top: 25px;
+    }
+    .position-time-block h5 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .position-search-icon a {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .team-member-img img {
+        width: 200px;
+        height: 200px;
+    }
+    .team-box-img:hover .team-member-img:after {
+        width: calc(100% - 33px);
+        left: 17px;
+        height: calc(100% - 26px);
+        top: 14px;
+    }
+    .banner-inner .slick-prev:before {
+        font-size: 30px;
+    }
+    .banner-inner .slick-next:before {
+        font-size: 30px;
+    }
+   
+    .team-member-img img {
+        padding: 12px;
+    }
+    .get-in-form form .form-field:nth-child(2), .get-in-form form .form-field:nth-child(3) {
+        width: 100%;
+        padding: 0 !important;
+    }
+    .get-in-img-con-block {
+        max-width: 100%;
+    }
+    .who-img-block:before {
+        display: none;
+    }
+    .business-con-block .col-md-4:not(:last-child) {
+        margin-bottom: 0;
+    }
+    .perks-box-img img {
+        height: 40px;
+    }
+    .perks-box {
+        padding: 30px 15px 20px;
+    }
+    .position-box {
+        margin-top: 0;
+    }
+    .position-sec-main {
+        padding: 0px 20px 0px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .business-sec-main {
+        padding: 0 20px 0px;
+    }
+    .get-in-img {
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #contact-video-section {
+        height: 340px;
+        width: 400px;
+    }
+    .who-content {
+        margin-bottom: 20px;
+    }
+    .slider-img-con h2 {
+        font-size: 44px;
+        line-height: 52px;
+    }
+    .header-btn {
+        padding-right: 60px;
+    }
+    .get-in-contact-content {
+        margin-top: 10px;
+    } 
+    .menubar-btn {
+        right: 25px;
+    }
+    .team-box-block .col-lg-4 {
+        width: 100%;
+    }
+    .video-inner .col-md-4 {
+        width: 100%;
+    }
+    .video-inner .col-md-4:last-child {
+        margin-bottom: 0px;
+    }
+    .single-visionary-box-content {
+        padding: 16px 15px 20px 15px;
+        text-align: center;
+    }
+    .single-visionary-box-content p {
+        margin: 0 auto;
+        padding-right: 40px;
+    }
+    .single-visionary-box-content p:before {
+        width: 100px;
+        right: -70px;
+    }
+    .single-visionary-content {
+        padding-left: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .single-visionary-sec-main {
+        padding: 80px 50px 30px;
+    }
+    .video-sec-main {
+        padding: 20px 10px 40px;
+    }
+    .single-visionary-sec-main {
+        padding: 80px 30px 30px;
+    }
+    .single-visionary-con-block:before {
+        width: 260px;
+        height: 260px;
+        top: -35px;
+        right: -35px;
+    }
+    .single-visionary-box-content h3 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    a.single-visionary-icon-link {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .hire-number-title {
+        margin-left: -25px;
+    }
+    .hire-content-odd .hire-number-content, .hire-content-even .hire-number-content {
+        max-width: 310px;
+    }
+    .banner-box-block-inner .form-field input, .banner-box-block-inner .form-field select {
+        font-size: 15px;
+        line-height: 15px;
+        height: 50PX;
+    }
+    .banner-search-icon {
+        padding: 12px 18px;
+    }
+    .culture-inner .custom-title h2 {
+        max-width: 100%;
+    }
+    .person-img img {
+        max-width: 100%;
+    }
+    .team-box-img:hover .team-member-img:after {
+        width: calc(100% - 300px);
+        left: 50% !important;
+        transform: translateX(-50%);
+    }
+    .business-box {
+        padding: 50px;
+    }
+    .business-box:before {
+        height: 90%;
+        top: 20px;
+    }
+    .business-box-block {
+        max-width: 270px;
+    }
+    .profile-skill-btn {
+        flex-wrap: wrap;
+    }
+    .profile-skill-btn a {
+        margin: 10px 5px;
+    }
+    .job-con-block h4 {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 500px) {
+    .get-in-form form .form-field textarea { 
+        height: 100px;
+    }
+    #contact-video-section {
+        height: 340px;
+        width: 320px;
+    }
+    .business-box:before {
+        height: 80%;
+    }
+    .business-box-block {
+        box-shadow: none;
+        background: transparent;
+    }
+    .slider-img-con h5 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .slider-img-con h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .banner-con-area img {
+        height: 250px;
+        object-fit: cover;
+    }
+    .about-img-block:before {
+        width: 280px;
+        height: 235px;
+        top: -30px;
+        left: -30px;
+    }
+    .who-img-block:before {
+        top: 315px;
+        width: 300px;
+        height: 230px;
+        left: -30px;
+    }
+    .about-sec-main {
+        padding: 60px 30px 0px;
+    }
+    .who-sec-main {
+        padding: 0px 30px 60px;
+    }
+    .newsletter-inner {
+        padding: 50px 20px 0;
+    }
+    .newsletter-form form input {
+        padding: 10px 175px 10px 13px;
+    }
+    .newsletter-form-btn {
+        top: 10px;
+    }
+    .newsletter-form-btn a {
+        padding: 11px 41px;
+    }
+    .about-content p, .who-content p, .who-con-block-2 .who-content p, .newsletter-content p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 15px;
+    }
+    .business-content p, .get-in-contact-content a {
+        font-size: 15px;
+    }
+    .banner-content h2 {
+           font-size: 42px;
+    line-height: 44px;
+    }
+    .banner-menu-block ul li a {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .single-visionary-box-content p:before {
+        width: 80px;
+        right: -50px;
+    }
+    .hire-content-odd .hire-number-content, .hire-content-even .hire-number-content {
+        position: relative;
+        left: unset;
+        top: unset;
+        max-width: 100%;
+        right: unset;
+        transform: unset;
+        margin: 20px 15px;
+    }
+    .hire-content-odd, .hire-content-even {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .hire-con-block .hire-content-odd:last-child  .hire-number-content {
+        left: unset !important;
+    }
+    .hire-content {
+        text-align: center;
+    }
+    .hire-con-block .hire-content-odd:last-child .hire-number-content .hire-content p {
+        margin-left: unset;
+    }
+    .hire-con-block .hire-content-odd:last-child .hire-number-title {
+        margin-bottom: 50px !important;
+    }
+    .hire-content-even .hire-number-content .hire-number, .hire-content-odd .hire-number-content .hire-number {
+        top: -40px;
+        font-size: 90px;
+        line-height: 90px;
+    }
+    .hire-con-block .hire-content-odd:last-child .hire-number-content .hire-number {
+        right: 0;
+    }
+    .hire-con-block {
+        padding-top: 0px;
+    }
+    .hire-number-title {
+        margin: 0 auto 50px !IMPORTANT;
+    }
+    .hire-content-odd .hire-number-title:before, .hire-content-even .hire-number-title:before  {
+        left: 50% !important;
+        right: unset;
+        transform: translateX(-50%) rotate(90deg);
+        top: unset;
+        bottom: -26px;
+    }
+    .hire-content-even .hire-number-title:after, .hire-content-odd .hire-number-title:after {
+        left: 50% !important;
+        right: unset;
+        transform: translateX(-50%);
+        top: unset;
+        bottom: -60px;
+    }
+    .perks-title h3, .culture-title h3 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .perks-box-block {
+        margin-top: 20px;
+    }
+    .perks-sec-main {
+        padding: 30px 20px 50px;
+    }
+    .person-slide {
+        padding: 80px 30px 40px;
+    }
+    .position-time-block {
+        text-align: center;
+    }
+    .position-list-block {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .position-apply-btn {
+        margin-top: 20px;
+    }
+    .team-box-img:hover .team-member-img:after {
+        width: calc(100% - 150px) !important;
+    }
+    .job-box-block {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .job-detail-content {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 400px) {
+    .who-img-block:before {
+        top: 335px;
+    }   
+    .custom-title h2 {
+        font-size: 26px;
+        line-height: 26px;
+    }
+    .about-sec-main {
+        padding: 60px 30px 30px;
+    }
+    .hire-content-odd .hire-number-content, .hire-content-even .hire-number-content {
+        margin: 20px 0px;
+    }
+    .perks-box-block .col-md-2 {
+        WIDTH: 100%;
+    }
+    .person-img:after {
+        width: 60px;
+        height: 60px;
+        bottom: -10px;
+    }
+    .team-box-img:hover .team-member-img:after {
+        width: calc(100% - 100px) !important;
+    }
+}
