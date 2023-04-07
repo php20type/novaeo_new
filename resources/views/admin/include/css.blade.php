@@ -10,3 +10,5 @@
   <!-- Custom Styles -->
   <link rel="stylesheet" type="text/css" href="{{ asset('assets/admin/css/custom.css')}}" />
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'></link>  
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css"/>
+  <link rel='stylesheet' href='https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap4.min.css'>

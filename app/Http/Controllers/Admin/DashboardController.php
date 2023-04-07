@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Candidate;
 use App\Models\ProfileViewLog;
 use App\Models\RecruterJob;
+use App\Models\ContactEnquiry;
 use Illuminate\Http\Request;
 
 class DashboardController extends Controller
@@ -28,5 +29,10 @@ class DashboardController extends Controller
         }
         
         return view('admin.dashboard',compact('latest_jobs','applied_count','selected_count','rejected_count','latest_candidate','profile_view','schedule_count'));
+    }
+
+    public function getcontactEnquiry(){
+        $contactEnquiry = ContactEnquiry::orderByDesc('created_at')->get();
+        return view('admin.contact.index',compact('contactEnquiry'));
     }
 }

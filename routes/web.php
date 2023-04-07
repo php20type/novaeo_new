@@ -66,6 +66,7 @@ Route::group(['prefix' => 'admin',  'middleware' => 'auth:admin'], function () {
     //All the routes that belongs to the group goes here
     Route::get('/', [DashboardController::class, 'index']);
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
+    Route::get('/contact-enquiry', [DashboardController::class, 'getcontactEnquiry'])->name('admin.contact.index');
     Route::group(['prefix' => 'candidate'], function () {
         Route::get('/', [CandidateController::class, 'index'])->name('admin.candidate.index');
         Route::get('/detail/{id}', [CandidateController::class, 'show'])->name('admin.candidate.show');
