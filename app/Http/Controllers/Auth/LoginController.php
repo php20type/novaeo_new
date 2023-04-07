@@ -7,6 +7,7 @@ use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
 use Auth;
+use Illuminate\Validation\ValidationException;
 
 class LoginController extends Controller
 {
@@ -63,6 +64,9 @@ class LoginController extends Controller
         if (Auth::guard('admin')->attempt($request->only(['email', 'password']), $request->get('remember'))) {
             return redirect()->intended('/admin/dashboard');
         }
+        throw ValidationException::withMessages([
+            'email' => __('auth.failed'),
+        ]);
         return back()->withInput($request->only('email', 'remember'));
     }
     public function adminLogout(Request $request)
